@@ -1,0 +1,11 @@
+@charset "utf-8";
+@import "helpers/mixin";
+$linkColor: #01AAED;
+.baidu{
+  color:$linkColor;
+}
+.rows{
+  width: 80px;
+  @include rowEllip;
+}
+
